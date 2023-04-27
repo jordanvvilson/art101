@@ -1,21 +1,36 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// create comment block
 
-// Constants
+  // index.js - purpose and description here
+  // Author: Jordan Wilson <jwilso17@ucsc.edu>
+  // Date: 26 April 2023
 
-// Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// declare variables from task 1 
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+var carMake = "Ford";
+  carMake= "Ford";
+  'Ford'
+var carModel;
+  carModel = "Taurus";
+  'Taurus'
+var carColor;
+  carColor = "Rusty";
+  'Rusty'
+var carYear;
+  carYear = 1995;
+  1995
+var ownIt;
+  ownIt = "False";
+  'False'
 
-// let's get this party started
-main();
+  // calculate
+  var carAge = 2023 - carYear;
+
+// output
+document.writeln("CarMake: " + carMake + "<br>");
+document.writeln("carModel: " + carModel + "<br>");
+document.writeln("carColor: " + carColor + "<br>");
+document.writeln("carYear: " + carYear + "<br>");
+document.writeln("carAge: " +carAge + "<br>");
+
+
