@@ -24,7 +24,7 @@ var ownIt;
   'False'
 
   // calculate
-  var carAge = 2023 - carYear;
+var carAge = 2023 - carYear;
 
 // output
 document.writeln("CarMake: " + carMake + "<br>");
