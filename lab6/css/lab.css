@@ -7,3 +7,10 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+element.style {
+  }
+img {
+  width: 400px;
+  height:auto;
+}
