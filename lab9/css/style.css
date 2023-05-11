@@ -1,0 +1,50 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+
+/* style.css */
+
+/*credit to chatgpt for giving me random elements to add
+
+/* Body background color */
+body {
+  background-color: #c5c4fd;
+}
+
+/* Text color */
+p {
+  color: rgb(255, 255, 255);
+  border: 1px solid green;
+  padding: 10px;
+}
+
+/* Font size */
+h1 {
+  font-size: 24px;
+}
+
+/* Padding and margin */
+.myDiv {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Border */
+.myDiv {
+  border: 1px solid black;
+}
+
+/* Button styles */
+#myButton {
+  background-color: rgb(255, 0, 102);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#myButton:hover{
+  background-color: aquamarine;
+}
