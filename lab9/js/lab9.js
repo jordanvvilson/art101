@@ -3,12 +3,12 @@
 // Date: 9 May 2023
 
 
-
- // Use getElementById() to find your output <div> and assign it to a variable outputEl (step 1)
+// credits to chat gpt and Professor Modes
+ // Use getElementById() to find your output <div> and assign it to a variable outputEl
  var outputEl = document.getElementById("output");
  console.log("outputEl: ", outputEl);
  
- // Create a new element with document.createElement("p") and assign it to a variable new1El (step 2)
+ // Create a new element with document.createElement("p") and assign it to a variable new1El 
  var new1El = document.createElement("p");
 
  // Change the html attribute of new1El to say "something new.""
@@ -22,7 +22,7 @@
  // Change the html attribute of new1El to say "something else.""
  new2El.innerHTML = "Something else.";
 
- // Append both new elements one at a time using appendChild() (step 3)
+ // Append new elements with appendChild(...)
  outputEl.appendChild(new1El);
  outputEl.appendChild(new2El);
 
