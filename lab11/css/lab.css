@@ -1,0 +1,8 @@
+
+    .sectionbox-special{
+      border: solid 1px #888;  
+      background-color: #DDD8C4;
+    } 
+    button#p-button , #c-button, #r-button{
+      color: red
+    }

@@ -9,7 +9,7 @@ document.getElementById("my-button").addEventListener("click", function() {
     var userName = document.getElementById("user-name").value;
 
     // Call the nameSort() or anagram() function and save the results
-    var sortedName = nameSort(userName); // or var sortedName = anagram(userName);
+    var sortedName = nameSort(userName);
 
     // Replace the HTML content of the output div with the results
     document.getElementById("output").innerHTML = sortedName;
@@ -25,5 +25,3 @@ function nameSort(name) {
 }
 
 //use append child for task x 
-
-//
