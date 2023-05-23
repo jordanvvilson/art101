@@ -2,25 +2,11 @@
 //Author: Jordan Wilson
 //Date: 17 May 2023 
 
+//create buttons and append them to minor sections 
+$("sectionbox").append("<button class='btn btn-secondary highlight-button'>Toggle Highlight</button>");
 
-
-
-$("#c-button").click(function(){
-
-  $(this).parent().toggleClass("special");
+$(".highlight-button").click(fnction(){
+    //use "this" to refer to button
+$(this).parent().toggleClass("special");
 })
-
-$("#p-button").click(function(){
-
-  $(this).parent().toggleClass("special");
-})
-
-$("#r-button").click(function(){
-
-
-  $(this).parent().toggleClass("special");
-})
-
-$("#challenge").append("<button id='c-button'>Button</button>");
-$("#problem").append("<button id='p-button'>Button</button>");
-$("#results").append("<button id='r-button'>Button</button>");
+   

@@ -1,8 +1,14 @@
 
-    .sectionbox-special{
+    .minor-section{
       border: solid 1px #888;  
       background-color: #DDD8C4;
     } 
-    button#p-button , #c-button, #r-button{
-      color: red
-    }
+  
+  element.style {
+    background-color: #a75757;
+  }
+
+  .special {
+    background-color: #888;
+    border: #000000
+  }
