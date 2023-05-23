@@ -1,14 +1,8 @@
-/*
- * Author: Wes Modes <wmodes@csumb.edu>
- * Created: 3 October
- * License: Public Domain
- */
+//Author: Jordan Wilson
+//Date: May 22
+//Lab 12 conditionals 
 
-
-
-// Return Gryffindor, Ravenclaw, Slytherin, and Hufflepuff
-// depending on length mod 4
-function sortingHat(str) {
+function buttName(str) {
   len = str.length;
   mod = len % 4;
 if (mod == 0) {
@@ -29,7 +23,7 @@ var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
 // get value from input field
   var name = document.getElementById("input").value;
-  var house = sortingHat(name);
+  var house = buttName(name);
 newText = "<p> The sorting hat has sorted you into " + house + "</p>";
 document.getElementById("output").innerHTML = newText;
 })
