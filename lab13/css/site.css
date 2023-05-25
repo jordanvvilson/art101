@@ -1,0 +1,13 @@
+
+element.style {
+}
+#content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #888;
+    background-color: #b79dda;
+}
+user agent stylesheet
+main {
+    display: block;
+}
