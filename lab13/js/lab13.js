@@ -70,5 +70,19 @@ document.getElementById("submit").addEventListener("click", function() {
     console.log("max:", max)
     if (! max) {
         reportError("You must provide a maximum");
+        debugger;
         return;
     }
+})
+var factorObj = getFactorObj();
+console.log("factorObj:", factorObj);
+if (Object.keys(factorObj).length === 0) {
+    reportError("You must provide at least one factor and text");
+    return;
+}
+ 
+
+ 
+
+ 
+
