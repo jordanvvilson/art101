@@ -1,11 +1,11 @@
 //Author: Jordan Wilon + Siena Dudas
 //Date 31 May 2023
 //Lab 15: AJAX
-//Credit to alvarotrigo.com, kanye.rest api, and chatgpt for helping me find my errors
+//shoutout to alvarotrigo.com, kanye.rest api, and chatgpt for helping me find my errors
 
 $(document).ready(function() {
   // Add click event to the button
-  $('#activate').click(function() {
+  $("#activate").click(function() {
     fetchQuote();
   });
 });
@@ -17,7 +17,7 @@ function fetchQuote() {
     url: "https://api.kanye.rest/",
     //get request
     method: "GET",
-    dataType: 'json',
+    dataType: "json",
     success: function(response) {
       var quote = response.quote;
       displayQuote(quote);
