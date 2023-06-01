@@ -1,0 +1,38 @@
+
+#body {
+  background-image: url("img/yzy.jpg/");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style for the activate button */
+#activate {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #de5555;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#activate:hover {
+  background-color: #45a049;
+}
+
+/*css for the kanye video */
+.video-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+iframe {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
