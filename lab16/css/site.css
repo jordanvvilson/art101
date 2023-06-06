@@ -1,0 +1,13 @@
+body {
+    background-image: url("img/lab16.background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+element.style {
+    padding-right: ;
+}
+
+.image-block {
+    position: fixed;
+}
