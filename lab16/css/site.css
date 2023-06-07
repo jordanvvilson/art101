@@ -20,7 +20,12 @@ p {
     background: linear-gradient(160deg, #ae1b1b 20%, #ffed4b 60%, #1b471b 20%);
     float: left;
 }
-
+.minor-section69 {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #134d28;
+    background: linear-gradient(160deg, #ae1b1b 20%, #ffed4b 60%, #1b471b 20%);
+}
 h2 {
     font-family: 'Times New Roman', Times, serif;
     color: darkslateblue;
