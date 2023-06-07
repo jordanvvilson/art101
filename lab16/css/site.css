@@ -1,13 +1,34 @@
-body {
-    background-image: url("img/lab16.background.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center center; 
-}
-element.style {
-    padding-right: ;
+
+head {
+    border: solid 1px #888;
+    background: linear-gradient(160deg, #ae1b1b 20%, #ffed4b 60%, #1b471b 20%);
 }
 
-.image-block {
-    position: fixed;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: larger;
+    color: #fff;
 }
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px #134d28;
+    background: linear-gradient(160deg, #ae1b1b 20%, #ffed4b 60%, #1b471b 20%);
+    float: left;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkslateblue;
+}
+
+a{
+    color: rgb(173, 154, 255);
+    font-size: 200%;
+    float: right;
+}
+

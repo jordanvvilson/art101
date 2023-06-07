@@ -1,7 +1,7 @@
 //Author: Jordan Wilon + Siena Dudas
-//Date 31 May 2023
-//Lab 16: 
-//shoutout to alvarotrigo.com, kanye.rest api, and chatgpt for helping me find my errors
+//Date 5 June 2023
+//Lab 16 JSON & APIs: 
+//thank you professor modes and leslie, I also got help online from protypr.io
 
 
 
@@ -56,7 +56,7 @@ function getComic(num) {
       var html = `<div id="imageblock">
           <h2>${title}</h2>
           <img src="${imageUrl}" title="${alt}"><br>
-          <button id="prev">Previous</button><button id="next">Next</button>
+          <button id="prev">go back</button><button id="next">go forward</button>
         </div>`
       // console.log("My new html: \n", html);
       $("#output").html(html);
