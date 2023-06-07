@@ -1,7 +1,7 @@
 //Author: Jordan Wilon + Siena Dudas
 //Date 5 June 2023
 //Lab 16 JSON & APIs: 
-//thank you professor modes and leslie, I also got help online from protypr.io
+//thank you professor modes and leslie, I also got help online from protypr.io 
 
 
 
